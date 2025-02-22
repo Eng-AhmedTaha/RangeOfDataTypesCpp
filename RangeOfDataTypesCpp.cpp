@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 int main() {
-   cout << "char Range: (" << (int)CHAR_MIN << ", " << (int)CHAR_MAX << ")\n";
-   cout << "unsigned char Range: (0, " << (int)UCHAR_MAX << ")\n\n";
+   cout << "char Range: (" <<CHAR_MIN << ", " <<CHAR_MAX << ")\n";
+   cout << "unsigned char Range: (0, " << UCHAR_MAX << ")\n\n";
 
    cout << "short Range: (" << SHRT_MIN << ", " << SHRT_MAX << ")\n";
    cout << "unsigned short Range: (0, " << USHRT_MAX << ")\n\n";
